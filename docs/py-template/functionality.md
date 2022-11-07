@@ -96,7 +96,7 @@ Every documented function will automatically be added to
 This action is performed after Continuous Deployment ran successfully.
 
 One can see the script responsible for it in
-[`docs/gen_ref_pages.py `](https://github.com/inovintell/py-template/blob/main/docs/gen_ref_pages.py)
+[`docs/gen_ref_pages.py`](https://github.com/inovintell/py-template/blob/main/docs/gen_ref_pages.py)
 
 In general, simply add code to `src/<repo-name>` and watch
 it automagically appear via

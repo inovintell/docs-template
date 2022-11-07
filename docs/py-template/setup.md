@@ -20,17 +20,16 @@ __use `snake_case` for a name!__
 
 > __If you don't want to release your package, you don't have to do this step!__
 
-> Currently only [`PyPI`](https://pypi.org/) and [`Test-PyPI`](https://test.pypi.org/)
-without any changes.
-
 Please add to your repository's
 [Encrypted Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
 the following:
 
 - `PYPI_NAME` - any name of package index, e.g. `pypi` or `test-pypi`
 - `PYPI_URL` - `url` to hosting:
-    - `https://test.pypi.org/legacy/` - for `test-pypi`
-    - `https://pypi.org/legacy/` - for `pypi`
+
+  - `https://test.pypi.org/legacy/` - for `test-pypi`
+  - `https://pypi.org/legacy/` - for `pypi`
+
 - `PYPI_TOKEN` - account-wide token allowing for package creation
 
 ### Additionally for [`gemfury.com`](https://gemfury.com/)
@@ -38,7 +37,7 @@ the following:
 To upload to [`gemfury.com`](https://gemfury.com/) one has to manually add:
 
 ```yaml
-          poetry config http-basic.dialogue ${{ secrets.PYPI_TOKEN }} ${{ secrets.PYPI_TOKEN }}
+poetry config http-basic.dialogue ${{ secrets.PYPI_TOKEN }} ${{ secrets.PYPI_TOKEN }}
 ```
 
 as the first command in `Deploy to registry`
