@@ -1,1 +1,1 @@
-# docs-template
+../README.md
