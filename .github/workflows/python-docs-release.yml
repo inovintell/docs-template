@@ -2,17 +2,12 @@
 name: Generate Documentation
 
 on:
-  workflow_run:
-    workflows:
-      - Python Package Semantic Release
-    types:
-      - completed
+  push:
     branches:
       - main
 
 jobs:
   docs:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
@@ -20,7 +15,10 @@ jobs:
         with:
           egress-policy: block
           allowed-endpoints: >
+            api.github.com:443
+            files.pythonhosted.org:443
             github.com:443
+            pypi.org:443
       - name: Checkout repository
         uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8 # tag=v3.1.0
         with:
