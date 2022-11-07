@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   setup:
-    if: ${{ ! contains(github.repository, 'template') }}
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
