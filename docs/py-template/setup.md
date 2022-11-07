@@ -35,10 +35,11 @@ the following:
 ### Additionally for [`gemfury.com`](https://gemfury.com/)
 
 To upload to [`gemfury.com`](https://gemfury.com/) one has to manually add:
-
+<!-- markdownlint-disable -->
 ```yaml
 poetry config http-basic.dialogue ${{ secrets.PYPI_TOKEN }} ${{ secrets.PYPI_TOKEN }}
 ```
+<!-- markdownlint-enable-->
 
 as the first command in `Deploy to registry`
 [here](https://github.com/inovintell/py-template/blob/main/.github/workflows/python-release.yml#L41)
