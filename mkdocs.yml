@@ -13,12 +13,12 @@ nav:
   - Overview: README.md
   - Template initialization: initialization.md
   - Templates:
-    - template:
-      - Setup: template/setup.md
-      - Functionality and Configuration: template/functionality.md
-    - py-template (Python):
-      - Setup: py-template/setup.md
-      - Functionality and Configuration: py-template/functionality.md
+      - template:
+        - Setup: template/setup.md
+        - Functionality and Configuration: template/functionality.md
+      - py-template (Python):
+        - Setup: py-template/setup.md
+        - Functionality and Configuration: py-template/functionality.md
   - Contributing: CONTRIBUTING.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Changelog: CHANGELOG.md
