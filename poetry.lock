@@ -437,7 +437,7 @@ docs = ["mkdocs", "mkdocs-material", "mkdocstrings", "mkdocstrings-python", "mkd
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "4c5d05975d56693b93e4e9bc2f7de7eba4cb423c74b4464427ec529e015da872"
+content-hash = "5c7fc278bac3f1e0b5a6c34e5b3ec766774f2f2c270b3d75bfec95d58d904bab"
 
 [metadata.files]
 certifi = [

@@ -40,5 +40,4 @@ docs = [
   "mkdocs-section-index",
   "mkdocs-gen-files",
   "mkdocs-minify-plugin",
-  "interrogate",
 ]
