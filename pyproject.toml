@@ -9,11 +9,11 @@ build-backend = "poetry.core.masonry.api"
 ###############################################################################
 
 [tool.poetry]
-name = "{{cookiecutter.repository}}"
+name = "docs-template"
 version = "0.0.0"
 description = "..."
-authors = ["{{cookiecutter.repository_owner}}"]
-maintainers = ["{{cookiecutter.repository_owner}}"]
+authors = ["inovintell"]
+maintainers = ["inovintell"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
@@ -212,7 +212,7 @@ exclude = [
   "docs",
   "build",
   "tests",
-  "src/{{cookiecutter.repository}}/_version.py",
+  "src/docs-template/_version.py",
 ]
 
 ###############################################################################
@@ -223,7 +223,7 @@ exclude = [
 
 [tool.semantic_release]
 version_variable = [
-  "src/{{cookiecutter.repository}}/_version.py:__version__",
+  "src/docs-template/_version.py:__version__",
 ]
 version_toml = [
     "pyproject.toml:tool.poetry.version"

@@ -1,12 +1,12 @@
 ---
-site_name: {{cookiecutter.repository}}  # yamllint disable-line
+site_name: docs-template  # yamllint disable-line
 site_description: ...
 site_url: >
-  https://{{cookiecutter.repository_owner}}.github.io/{{cookiecutter.repository}}
+  https://inovintell.github.io/docs-template
 repo_url: >
-  https://github.com/{{cookiecutter.repository_owner}}/{{cookiecutter.repository}}
+  https://github.com/inovintell/docs-template
 repo_name: >
-  '{{cookiecutter.repository_owner}}/{{cookiecutter.repository}}'  # yamllint disable-line
+  'inovintell/docs-template'  # yamllint disable-line
 
 nav:
   - Overview: README.md
@@ -59,7 +59,7 @@ plugins:
             heading_level: 2
             enable_inventory: true
       watch:
-        - src/{{cookiecutter.repository}}
+        - src/docs-template
   - minify:
       minify_html: true
       htmlmin_opts:

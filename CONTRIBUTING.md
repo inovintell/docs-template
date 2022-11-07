@@ -1,4 +1,4 @@
-# Contributing to {{cookiecutter.repository}}
+# Contributing to docs-template
 
 We love your input! We want to make contributing to this project
 as easy and transparent as possible, whether it's:
@@ -38,7 +38,7 @@ the project.
 
 Feel free to contact the maintainers if that's a concern.
 
-## Report bugs via [Github Issues](https://github.com/{{cookiecutter.repository}}/issues)
+## Report bugs via [Github Issues](https://github.com/docs-template/issues)
 
 We use GitHub issues to track public bugs. Report a bug by opening a new issue;
 it's that easy!

@@ -1,1 +1,1 @@
-# {{cookiecutter.repository}} tests
+# docs-template tests
