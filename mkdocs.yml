@@ -8,9 +8,17 @@ repo_url: >
 repo_name: >
   'inovintell/docs-template'  # yamllint disable-line
 
+
 nav:
   - Overview: README.md
-  - API Reference: reference/
+  - Template initialization: initialization.md
+  - Templates:
+    - template:
+      - Setup: template/setup.md
+      - Functionality and Configuration: template/functionality.md
+    - py-template (Python):
+      - Setup: py-template/setup.md
+      - Functionality and Configuration: py-template/functionality.md
   - Contributing: CONTRIBUTING.md
   - Code of Conduct: CODE_OF_CONDUCT.md
   - Changelog: CHANGELOG.md
@@ -19,8 +27,8 @@ theme:
   name: material
   palette:
     - scheme: slate
-      primary: red
-      accent: pink
+      primary: teal
+      accent: cyan
   features:
     - navigations.tabs
   icon:
@@ -42,24 +50,7 @@ theme:
 plugins:
   - search
   - autorefs
-  - gen-files:
-      scripts:
-        - docs/gen_ref_pages.py
-  - literate-nav:
-      nav_file: SUMMARY.md
   - section-index
-  - mkdocstrings:
-      handlers:
-        python:
-          rendering:
-            show_submodules: false
-            show_root_heading: false
-            show_root_toc_entry: false
-            show_source: true
-            heading_level: 2
-            enable_inventory: true
-      watch:
-        - src/docs-template
   - minify:
       minify_html: true
       htmlmin_opts:
