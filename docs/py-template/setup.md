@@ -17,10 +17,12 @@ __use `snake_case` for a name!__
 (see [here](https://docs.github.com/en/pages/quickstart))
 - Optional (but recommended):
 [add main branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
+rules
 
-## Setup Credentials for package release
+## Setup Credentials for Semantic Release to PyPI
 
-> __If you don't want to release your package, you don't have to do this step!__
+> __If you don't want to release your package,
+you don't have to perform this step!__
 
 Please add to your repository's
 [Encrypted Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
@@ -36,7 +38,8 @@ the following:
 
 ### Additionally for [`gemfury.com`](https://gemfury.com/)
 
-To upload to [`gemfury.com`](https://gemfury.com/) one has to manually add:
+To upload to [`gemfury.com`](https://gemfury.com/) package registry
+one has to manually add:
 <!-- markdownlint-disable -->
 ```yaml
 poetry config http-basic.dialogue ${{ secrets.PYPI_TOKEN }} ${{ secrets.PYPI_TOKEN }}

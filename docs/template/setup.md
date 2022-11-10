@@ -10,3 +10,4 @@ Longer version...:
 (see [here](https://docs.github.com/en/pages/quickstart))
 - Optional (but recommended):
 [add main branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
+rules
