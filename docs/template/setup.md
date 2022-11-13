@@ -8,6 +8,7 @@ Longer version...:
 - Name your repository however you wish (snakecase advised)
 - Enable `gh-pages` branch on `/` to have your documentation hosted
 (see [here](https://docs.github.com/en/pages/quickstart))
+- Enable hosted `renovatebot`, see [here](https://github.com/marketplace/renovate)
 - Optional (but recommended):
 [add main branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
 rules
