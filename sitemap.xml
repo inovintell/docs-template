@@ -26,6 +26,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://inovintell.github.io/docs-template/py-template/integration/</loc>
+         <lastmod>2022-11-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://inovintell.github.io/docs-template/py-template/setup/</loc>
          <lastmod>2022-11-13</lastmod>
          <changefreq>daily</changefreq>
