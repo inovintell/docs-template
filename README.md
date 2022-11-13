@@ -32,7 +32,7 @@ Includes, amongst other things:
 
 See in-depth documentation [here](./docs/template).
 
-## [py-template (Python)](https://github.com/inovintell/template)
+## [py-template (Python)](https://github.com/inovintell/py-template)
 
 > __Use it for any Python project with no (minor) adjustments!__
 
