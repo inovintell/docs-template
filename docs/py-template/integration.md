@@ -14,7 +14,7 @@ existing ones (unfortunately not as easily).
 [setup](https://inovintell.github.io/docs-template/py-template/setup/)
 steps!
 
-> __You might want to initialize an empty
+__You might want to initialize an empty
 "dummy" repo to have initialized elements
 to choose from__
 
@@ -43,7 +43,6 @@ and enable renovate bot __(unless you have one already setup)__
 - Copy `.gitignore` __(unless you have one already setup)__
 - Copy `.editorconfig` __(unless you have one already setup)__
 
-Feel free to open an Issue with your repository and a short
-description of desired effect and we will try to help you with
-the adjustment process!
-
+Feel free to [open an Issue](https://github.com/inovintell/py-template/issues)
+with your repository and a short description of desired effect
+and we will try to help you with the adjustment process!
