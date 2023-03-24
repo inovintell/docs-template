@@ -19,6 +19,7 @@ nav:
           - Setup: py-template/setup.md
           - Functionality and Configuration: py-template/functionality.md
           - Integration with existing projects: py-template/integration.md
+          - Adjusting coverage: py-template/coverage.md
   - Template initialization: initialization.md
   - Contributing: CONTRIBUTING.md
   - Code of Conduct: CODE_OF_CONDUCT.md
