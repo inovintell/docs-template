@@ -39,7 +39,7 @@ set specified by `select`
 
 Others are provided matching the following regex:
 
-```
+```toml
 [tool.ruff.<CHECKER>]
 ```
 
