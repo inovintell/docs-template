@@ -1,7 +1,7 @@
 # Private releases
 
 Currently [py-template](https://github.com/inovintell/py-template) is set to
-to perform public releases on `PyPI`. 
+to perform public releases on `PyPI`.
 
 If the project fails to release documentation __will not be updated__
 after merging.
@@ -16,7 +16,7 @@ for more information__).
 
 ## 1. Adjusting release process
 
-There is no need for explicit release, simply __remove 
+There is no need for explicit release, simply __remove
 `.github/workflows/python-release.yml`__ and you are good to go.
 
 ## 2. Adjusting documentation release
