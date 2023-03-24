@@ -2,10 +2,12 @@
 
 > __TLDR: same as `README.md`, but needs
 [GitHub Actions Secrets](https://docs.github.com/en/rest/actions/secrets)
-set on a repo/organization level and `poetry` + `pre-commit` setup.
+set on a repo/organization level and `poetry` + `pre-commit` setup.__
 
 __WARNING: use repository name which is ABSENT from
-[pypi.org](https://pypi.org/) or package index of your choosing.__
+[pypi.org](https://pypi.org/) or package index of your choosing__
+(unless you want to release privately, then see
+[here](https://inovintell.github.io/docs-template/py-template/private/)).
 
 ## Initial Setup
 
