@@ -30,7 +30,7 @@ Ubuntu and is tailored to standalone applications
 
 ## 1. Adjusting `pyproject.toml`
 
-Modify `.pyproject.toml`` file under `DEPENDENCIES` section as shown below:
+Modify `.pyproject.toml` file under `DEPENDENCIES` section as shown below:
 
 ```toml
 ###############################################################################
@@ -48,7 +48,6 @@ After that we need to adjust `ruff` settings to tailor any automated fixers
 and code checkers to our new version.
 
 One can do it under `FIX SETTINGS` section via single line change:
-
 
 ```toml
 ###############################################################################
@@ -85,5 +84,5 @@ jobs:
     runs-on: ${{ matrix.os }}
 ```
 
-> These two steps should be enough to adjust to specific version and lower 
+These two steps should be enough to adjust to specific version and lower
 costs/entry barrier by only testing across single version and OS.
