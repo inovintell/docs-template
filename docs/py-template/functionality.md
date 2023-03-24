@@ -1,7 +1,7 @@
 # Functionality of [py-template](https://github.com/inovintell/py-template)
 
 > __Please see [template/functionality](./docs/template/functionality.md)
-for base functionality, this templates only adjusts and extends them
+for base functionality, this template adjusts and extends them
 to be more useful for Python!__
 
 Below is a detailed list of functionalities and their source
@@ -9,6 +9,9 @@ files (so you can modify them if you wish with ease),
 functionalities provided by
 [template](https://github.com/inovintell/template)
 __are not repeated here__!
+
+> __See specific use cases for more thorough description of
+possible adjustments__
 
 ## Local development
 
