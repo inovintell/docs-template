@@ -22,6 +22,7 @@ nav:
           - Adjusting coverage: py-template/coverage.md
           - Private releases: py-template/private.md
           - Integration with existing projects: py-template/integration.md
+          - FAQ: py-template/faq.md
   - Template initialization: initialization.md
   - Contributing: CONTRIBUTING.md
   - Code of Conduct: CODE_OF_CONDUCT.md
