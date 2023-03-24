@@ -20,7 +20,6 @@ poetry run pre-commit <hook-id>
 
 `<hook-id>`s can be found in `.pre-commit-config.yaml`, for example:
 
-
 ```yaml
 - id: yaml-linter # This one
   verbose: true
@@ -36,9 +35,9 @@ poetry run pre-commit <hook-id>
 ## One of the GitHub Actions is failing, but working locally
 
 Try clearing the cache and restarting the failing action.
-See 
+See
 [here](https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows#managing-laches)
 for more information.
 
-If the above does not help, please raise an issue with an extensive 
+If the above does not help, please raise an issue with an extensive
 description (changes performed by commit, which action fails etc.)
