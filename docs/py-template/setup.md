@@ -2,7 +2,7 @@
 
 > __TLDR: same as `README.md`, but needs
 [GitHub Actions Secrets](https://docs.github.com/en/rest/actions/secrets)
-set on a repo/organization level.__
+set on a repo/organization level and `poetry` + `pre-commit` setup.
 
 __WARNING: use repository name which is ABSENT from
 [pypi.org](https://pypi.org/) or package index of your choosing.__
@@ -16,9 +16,14 @@ __use `snake_case` for a name!__
 - Enable `gh-pages` branch on `/` to have your documentation hosted
 (see [here](https://docs.github.com/en/pages/quickstart))
 - Enable hosted `renovatebot`, see [here](https://github.com/marketplace/renovate)
-- Optional (but recommended):
-[add main branch protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/about-protected-branches)
-rules
+- Create `poetry` environment (make sure you have it installed, see
+[here](https://python-poetry.org/docs/#installation) for more info)
+- Enable `pre-commit` hooks locally
+
+__Last two steps can also be quickly wrapped in a single function
+usable from your shell, see
+[here](https://inovintell.github.io/docs-template/py-template/tricks/)
+for more information__
 
 ## Setup Credentials for Semantic Release to PyPI
 

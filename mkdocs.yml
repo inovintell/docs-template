@@ -21,6 +21,7 @@ nav:
           - Python versioning: py-template/version.md
           - Adjusting coverage: py-template/coverage.md
           - Private releases: py-template/private.md
+          - Tips & Tricks: py-template/tricks.md
           - Integration with existing projects: py-template/integration.md
           - FAQ: py-template/faq.md
   - Template initialization: initialization.md
