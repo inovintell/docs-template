@@ -20,6 +20,7 @@ nav:
           - Functionality and configuration: py-template/functionality.md
           - Python versioning: py-template/version.md
           - Adjusting coverage: py-template/coverage.md
+          - Private releases: py-template/private.md
           - Integration with existing projects: py-template/integration.md
   - Template initialization: initialization.md
   - Contributing: CONTRIBUTING.md
