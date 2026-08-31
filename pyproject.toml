@@ -26,7 +26,7 @@ mkdocstrings = { version = "^0.26.0", optional = true }
 mkdocstrings-python = { version = "^1.0.0", optional = true }
 mkdocs-literate-nav = { version = "^0.6.0", optional = true }
 mkdocs-section-index = { version = "^0.3.4", optional = true }
-mkdocs-gen-files = { version = "^0.5.0", optional = true }
+mkdocs-gen-files = { version = "^0.6.0", optional = true }
 mkdocs-minify-plugin = { version = "^0.8.0", optional = true }
 
 [tool.poetry.extras]
